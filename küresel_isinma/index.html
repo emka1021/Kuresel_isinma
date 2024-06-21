@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Küresel Isınma Verileri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Küresel Isınma Verileri</h1>
+    </header>
+    <div class="container">
+        <input type="text" id="yearsInput" placeholder="Başlangıç Yılı, Bitiş Yılı">
+        <button onclick="drawChart()">Göster</button>
+        <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    </div>
+    <div class="advice-container">
+        <h2>Küresel Isınmaya Karşı Tavsiyeler</h2>
+        <ul id="adviceList"></ul>
+    </div>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
